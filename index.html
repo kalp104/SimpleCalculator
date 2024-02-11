@@ -16,15 +16,15 @@
                 </div>
                 <div class="buttons">
                     <div class="firstRow">
-                        <input type="button" class="unique1" value="%" onclick="Display.value += '%'">
-                        <input type="button" class="unique2" value="CE" onclick="Display.value = ''" >
-                        <input type="button" class="unique3" value="C" onclick="Display.value = Display.value.toString().slice(0,-1)" >
+                        <input type="button" value="%" onclick="Display.value += '%'">
+                        <input type="button" value="CE" onclick="Display.value = ''" >
+                        <input type="button" value="C" onclick="Display.value = Display.value.toString().slice(0,-1)" >
                         <input class="unique" type="button" value="/" onclick="Display.value += '/'">
                     </div>
                     <div class="secondRow">
-                        <input type="button" class="unique4" value="7" onclick="Display.value += '7'">
-                        <input type="button" class="unique5"value="8" onclick="Display.value += '8'">
-                        <input type="button" class="unique6 "value="9" onclick="Display.value += '9'">
+                        <input type="button" value="7" onclick="Display.value += '7'">
+                        <input type="button" value="8" onclick="Display.value += '8'">
+                        <input type="button" value="9" onclick="Display.value += '9'">
                         <input class="unique" type="button" value="X" onclick="Display.value += '*'">
                     
                     </div>
@@ -48,7 +48,7 @@
                         <input type="button" value="0" onclick="Display.value += '0'">
                         <input type="button" value="00" onclick="Display.value += '00'">
                         <input type="button" value="." onclick="Display.value += '.'">
-                        <input type="button" value="=" onclick="Display.value = eval(Display.value)">     
+                        <input type="button" class="unique" value="=" onclick="Display.value = eval(Display.value)">     
                     </div>
                 </div>
                
@@ -56,7 +56,5 @@
         </div>
     </div>
     
-
-    <script src="script.js"></script>
 </body>
 </html>

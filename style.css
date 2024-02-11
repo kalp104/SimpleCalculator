@@ -64,39 +64,43 @@ body {
     
 }
 .buttons input {
-    padding: 20px;
-    border: none;
-   
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;  
 }
 .firstRow{
     display: flex;
+    align-items: center;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 5px;
+    justify-content: space-around;
+    
 }
 .secondRow{
     display: flex;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 5px;
 }
 .thirdRow{
     display: flex;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 5px;
 }
 .forthRow{
     display: flex;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 5px;
 }
 .lasthRow{
     display: flex;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 5px;
+    justify-content: space-around;
 }
 
 .unique{
